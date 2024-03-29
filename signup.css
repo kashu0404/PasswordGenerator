@@ -1,0 +1,116 @@
+h1 {
+  color: #1996A7;
+  font-family: 'Cherry Bomb';
+  font-size: 64px;
+  text-indent: 29cqmax;
+  text-shadow: 0px 4px 2px darkslategrey;
+}
+
+body {
+  background-color: #C5F1F8;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  .square {
+      height: 550px;
+      width: 900px;
+      display: flex;
+      align-items: flex-start;
+      background-color: white;
+      /* text-align:center; */
+      margin-top: 50px;
+      margin-bottom: 150px;
+      margin-right: 100px;
+      margin-left: 250px; 
+      border-radius: 15px;
+      white-space: nowrap;
+      .signin {
+        color: #FFFBFB;
+        font-family: 'Cherry Bomb';
+        font-size: 60px;
+        text-indent: 4cqmax;
+        -webkit-text-stroke-color: #886868;
+        -webkit-text-stroke-width: 2px;
+    }
+    .fullname {
+      height: 50px;
+      width: 450px;
+      display: flex;
+      background-color: #C5F1F8;
+      margin-left: 300px;
+      margin-top: 100px;
+      border-radius: 15px;
+      border: 2px solid #7C7C7C;
+    }
+    .emailbox {
+        height: 50px;
+        width: 450px;
+        display: flex;
+        background-color: #C5F1F8;
+        margin-left: 300px;
+        margin-top: 50px;
+        border-radius: 15px;
+        border: 2px solid #7C7C7C;
+
+      }
+      .passbox {
+        height: 50px;
+        width: 450px;
+        display: flex;
+        background-color: #C5F1F8;
+        margin-left: 300px;
+        margin-top: 50px;
+        border-radius: 15px;
+        border: 2px solid #7C7C7C;
+
+        
+      }
+      .rpassbox {
+        height: 50px;
+        width: 450px;
+        display: flex;
+        background-color: #C5F1F8;
+        margin-left: 300px;
+        margin-top: 50px;
+        border-radius: 15px;
+        border: 2px solid #7C7C7C;
+
+      }
+      .fn {
+        color: #7C7C7C;
+        font-size: 25px;
+      }
+      .emailorphone {
+        color: #7C7C7C;
+        font-size: 25px;
+      }
+      .pass {
+        color: #7C7C7C;
+        font-size: 25px;
+      }
+      .rpass {
+        color: #7C7C7C;
+        font-size: 25px;
+      }
+      .login{
+        margin-top: 490px;
+        margin-left: -100px;
+        background-color: #FFFBFB;
+        border: 2px solid #886868;
+        border-radius: 15px;
+        font-size: 30px;
+        
+      }
+      .next{
+        margin-top: 480px;
+        margin-left: 20px;
+        background-color: #56B0BC;
+        border: 2px solid #886868;
+        border-radius: 15px;
+        font-size: 40px;
+        color: #FFFBFB;
+        
+      }
+  }
+}

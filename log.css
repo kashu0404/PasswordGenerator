@@ -1,0 +1,100 @@
+
+h1 {
+    color: #1996A7;
+    font-family: 'Cherry Bomb';
+    font-size: 64px;
+    text-indent: 29cqmax;
+    text-shadow: 0px 4px 2px darkslategrey;
+}
+body {
+    background-color: #C5F1F8;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    .square {
+        height: 550px;
+        width: 900px;
+        display: flex;
+        align-items: flex-start;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        margin-right: 100px;
+        margin-left: 250px; 
+        border-radius: 15px;
+        white-space: nowrap; 
+
+        .signin {
+            color: #FFFBFB;
+            font-family: 'Cherry Bomb';
+            font-size: 60px;
+            text-indent: 4cqmax;
+            margin-bottom: 40px;
+            -webkit-text-stroke-color: #886868;
+            -webkit-text-stroke-width: 2px;
+        }
+        .emailbox {
+            height: 60px;
+            width: 450px;
+            display: flex;
+            background-color: #C5F1F8;
+            margin-left: 300px;
+            margin-top: 200px;
+            border-radius: 15px;
+            border: 2px solid #7C7C7C;
+          }
+
+          .passbox {
+            height: 60px;
+            width: 450px;
+            background-color: #C5F1F8;
+            margin-left: 300px;
+            margin-top: 40px;
+            border-radius: 15px;
+            border: 2px solid #7C7C7C;
+
+          }
+
+          .emailorphone {
+            color: #7C7C7C;
+            font-size: 25px;
+          }
+          .pass {
+            color: #7C7C7C;
+            font-size: 25px;
+          }
+          .forgotpass{
+            color: #7C7C7C;
+            font-size: 25px;
+            margin-top: 340px;
+            margin-left: -450px;
+            text-decoration: underline;
+          }
+          .noAccount{
+            color: #7C7C7C;
+            font-size: 25px;
+            margin-top: 450px;
+            margin-left: -10px;
+            text-decoration: underline;
+          }
+          .Login{
+            /* font-family: ; */
+            margin-top: 460px;
+            margin-left: 20px;
+            background-color: #56B0BC;
+            border: 2px solid #886868;
+            border-radius: 15px;
+            font-size: 40px;
+            color: #FFFBFB;
+            
+          }
+
+      }
+
+    
+
+}
+
+
+
